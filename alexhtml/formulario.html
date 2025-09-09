@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="sobrenome" id="sobrenome" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="endereco">Endereço</label>
+        <input type="text" name="endereco" id="endereco" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="numero">Número</label>
+        <input type="number" name="numero" id="numero" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="obs">Observação</label>
+        <textarea name="obs" id="obs"></textarea>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="estado">Estado</label>
+        <select name="estado" id="estado">
+          <option value="">Selecione o Estado</option>
+          <option value="CE">Ceará</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+          <option value="RS">Rio Grande do Sul</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="consulta">Hora da consulta</label>
+        <input type="time" name="consulta" id="consulta" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="compromisso">Data e hora do compromisso</label>
+        <input type="datetime-local" name="compromisso" id="compromisso" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="arquivo">Envie seus arquivos</label>
+        <input type="file" name="arquivo" id="arquivo" />
+      </div>
+
+      <br />
+
+      <button type="submit">Cadastrar</button>
+      <br>
+      <div>
+        <p>escolha qual vaga você quer se canditadar</p>
+        <input type="checkbox" name="" id="backend" value="backend">
+        <label for="backend">vagas para back-end</label>
+      </div>
+
+      <br>
+
+      <div>
+        <input type="checkbox" name="" id="fullstack" value="fullstack">
+        <label for="fullstack">vagas para full-stack</label>
+      </div>
+
+      <br>
+
+      <div>
+        <input type="checkbox" name="" id="frontend" value="frontend">
+        <label for="frontend">vagas para front-end</label>
+      </div>
+
+      <br>
+<div>
+    <p>para qual turno você tem disponilidade</p>
+        <input type="radio" name="turno" id="manhã" value="manha">
+        <label for="manha">manhã</label>
+</div>
+<div>
+    <input type="radio" name="turno" id="tarde" value="tarde">
+    <label for="tarde">tarde</label>
+</div>
+<div>
+     <input type="radio" 
+     name="turno"
+     id="noite" 
+     value="noite">
+    <label for="noite">noite</label>
+</div>
+    </form>
+  </body>
+</html>
