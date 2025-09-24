@@ -1,0 +1,130 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.container-esquerdo {
+  background-color: #58af9c;
+  color: white;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container-esquerdo h2 {
+  font-size: 40px;
+}
+
+.container-esquerdo p {
+  font-size: 24px;
+  text-align: center;
+  width: 70%;
+  line-height: 50px;
+  font-weight: 200;
+}
+
+.container-esquerdo button {
+  text-transform: uppercase;
+  border: 2px solid white;
+  background-color: transparent;
+  padding: 15px 90px;
+  color: white;
+  border-radius: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.container-esquerdo button:hover {
+  background-color: white;
+  color: #58af9c;
+}
+
+.container-direito {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.container-direito h1 {
+  font-size: 40px;
+  color: #58af9c;
+}
+
+.container-direito .container-icones {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.container-icones i {
+  color: gray;
+}
+
+.borda-icone {
+  border: 2px solid gray;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.container-direito p {
+  font-size: 24px;
+  text-align: center;
+  width: 70%;
+  line-height: 50px;
+  font-weight: 200;
+}
+
+.container-direito form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.container-input {
+  width: 100%;
+  background-color: #b1aaaa;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-input input {
+  width: 100%;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.container-direito button {
+  text-transform: uppercase;
+  background-color: #26463f;
+  padding: 15px 90px;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  width: fit-content;
+}
