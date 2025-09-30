@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   display: flex;
+   font-family: sans-serif;
+   height: 100vh;
+}
+.container-esquerdo {
+   background-color: #f0e1f1;
+   color: rgb(22, 18, 18);
+   width: 55%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container-esquerdo h2{
+   color: black;
+   font-size: 4vh;
+   font-weight: 490;
+   position: absolute;
+   top: 35vh;
+   left: 28vh;
+   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+}
+.container-esquerdo img{
+   position: absolute;
+   top: 22%;
+   height: 17%;
+   width: 23%;
+   left: 13%;
+}
+.container-direito {
+   background-color: #f0e1f1;
+   color: rgb(22, 18, 18);
+   width: 100vh;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+.container-direito form{
+color: rgb(19, 15, 15);
+border: rgb(255, 255, 255) solid 1px;
+background-color: white;
+border-radius: 2vh;
+padding: 75px;
+width: 50vh;
+display: flex;
+flex-direction: column;
+position: absolute;
+   top: 20vh;
+   left: 110vh;
+}
+
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 19px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f5f6fa;
+  font-size: 16px;
+  color: #1c1e21;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s;
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border: 1.5px solid #1877f2;
+  background: #fff;
+}
+form input[type="submit"] {
+  width: 100%;
+  background: #2f7de4;
+  color: #ececec;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-size: 17px;
+  cursor: pointer;
+  box-sizing: border-box; /* garante que padding/borda não ultrapassem 100% */
+  transition: background 0.2s;
+}
+form input[type="submit"]:hover {
+  background: #166fe5;
+}
+ .container-secundario p {
+    font-size: 1.8vh;
+    color: rgb(22, 18, 18);
+    position: absolute;
+    top: 70vh;
+    left: 120vh;
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+.container-esqueceu a{
+    font-size: 1.8vh;
+    color: rgb(78, 133, 216);
+    position: absolute;
+    width: 100%;
+    height: 100%
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+   .container-principal a{
+      font-size: 2.2vh;
+      color: white;
+      background-color: rgb(18, 141, 18);
+      text-decoration: none;
+      text-align: center;
+      padding: 13px 0;
+      border-radius: 4px;
+      position: absolute;
+      width: 13%;
+      height: 6%;
+      top: 70%;
+      left: 75%;
+   }
+   hr {
+  border: none;
+  height: 2px;
+  background: #ddd;
+  margin: 24px 0;
+  border-radius: 2px;
+}
